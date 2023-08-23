@@ -1,0 +1,124 @@
+header{
+    background-image:linear-gradient(rgba(214, 46, 51 , 0.6),rgba(214, 46, 51 , 0.6)),url(../images/events-heavenly-header.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    
+}
+
+.header-content{
+    position: relative;
+    top: 50%;
+}
+.header-title{
+    font-size: 60px;
+}
+
+.open-nav{
+    top: 50%;
+}
+
+.my-nav{
+    background-color: #000;
+    height: 100vh;
+    width: 0%;
+
+}
+
+
+nav ul li{
+    font-size: 25px;
+    padding: 17px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+nav ul li:hover{
+    color: #801C1F;
+}
+
+.my-nav i{
+    right: 30px;
+    top: 30px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.my-nav i:hover{
+    color: #801C1F !important;
+}
+.open-nav{
+    cursor: pointer;
+}
+.ul-nav{
+    display: none;
+}
+
+@media screen and (max-width:980px) {
+    
+        .my-open{
+            display: flex ;
+            justify-content: center;
+            align-items: start !important;
+            padding-top: 40px;
+
+        }
+        .open-nav{
+            top: 10%;
+        }
+}
+@media screen and (max-width:500px) {
+
+
+        .my-open{
+            display: flex ;
+            justify-content: center;
+            align-items: start !important;
+            padding-top: 40px;
+        }
+}
+
+
+/*******************************************************************************************/
+.my-title{
+    background-color: rgba(214, 46, 51 , 0.6);
+    cursor: pointer;
+}
+.title-slide-down{
+    background-color:#ccc;
+    display: none;
+}
+
+/************************************************/
+.my-timer{
+    background-image:linear-gradient(rgba(214, 46, 51 , 0.6),rgba(214, 46, 51 , 0.6)) ,url(../images/WhatsApp\ Image\ 2023-08-23\ at\ 5.54.55\ PM.jpeg);
+    background-size: 100% 100%;
+    background-position: center center;
+}
+
+.my-social li{
+    width: 40px;
+    height: 40px;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+.my-social li i{
+    color: grey;
+    transition: 0.3s;
+}
+.my-social li:hover{
+    background-color: #D62E33;
+    border: none;
+}
+
+.my-social li:hover i{
+    color: #fff;
+}
+
+.send-massage{
+    background-color: #D62E33;
+    color: #fff;
+    border: none;
+}
